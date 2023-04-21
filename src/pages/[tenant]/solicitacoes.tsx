@@ -17,7 +17,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
-            Pagina do Home
+            Pagina de Solicitações
           </p>
           <div>
             <a
