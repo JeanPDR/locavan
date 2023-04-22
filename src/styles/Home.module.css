@@ -1,0 +1,36 @@
+.container{
+  background-color: #FFF;
+}
+.header{
+  background-color: #f9f9fb;
+  padding: 50px 24px 30px 24px;
+}
+.headerTop{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerTopLeft{}
+.headerTitle{
+  font-weight: 500;
+  font-size: 24px;
+  color: #1b1b1b;
+  margin-bottom: 8px;
+}
+.headerSubtitle{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(151, 151, 151, 0.8);
+}
+.headerTopRight{}
+.menuButton{
+  width: 18px;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menuButtonLine{
+  background-color: #ed053f;
+  height: 2px;
+}
