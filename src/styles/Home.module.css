@@ -1,5 +1,6 @@
 .container{
   background-color: #FFF;
+  text-decoration: none;
 }
 .header{
   background-color: #f9f9fb;
@@ -33,4 +34,10 @@
 .menuButtonLine{
   background-color: #ed053f;
   height: 2px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 0px 24px 0px 24px;
 }

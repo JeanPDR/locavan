@@ -1,0 +1,28 @@
+.container {
+    display: block;
+    background: #f9f9fb;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.head{
+    height: 90px;
+}
+
+.info{
+    padding: 13px;
+}
+.info .img{
+    text-align: center;
+    margin-top: -90px;
+}
+.info .img img{
+    width: 80%;
+    height: auto;
+}
+.info .job{
+    font-weight: 500;
+    font-size: 19px;
+    color: #1b1b1b;
+    text-decoration: none;
+}

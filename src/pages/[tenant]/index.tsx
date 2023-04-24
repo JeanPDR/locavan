@@ -1,4 +1,5 @@
 import { Banner } from '../../../public/components/Banner';
+import { ContainerItem } from '../../../public/components/ContainerItem';
 import styles from '../../styles/Home.module.css'
 
 const Home = () => {
@@ -21,8 +22,19 @@ const Home = () => {
           </div>
         </div>
       </header>
-
       <Banner/>
+      <div className={styles.grid}>
+         <ContainerItem
+         data={{id:1, image: '/tmp/job.png', category:'Tabalho', }}
+         mainColor='#ed053f'
+         />
+
+        <ContainerItem
+         data={{id:2, image: '/tmp/casa.png', category:'Casa', }}
+         mainColor='#ed053f'
+         />
+         
+      </div>
     </div>
   )
 }
