@@ -1,8 +1,11 @@
 import { Banner } from '../../../public/components/Banner';
 import { ContainerItem } from '../../../public/components/ContainerItem';
+import { useApi } from '../../../public/libs/useApi';
 import styles from '../../styles/Home.module.css'
 
 const Home = () => {
+  const api = useApi();
+  const tenant = await api.getTenant('locavan');
   return (
     <div className={styles.container}>
       <header className={styles.header}>
@@ -25,12 +28,12 @@ const Home = () => {
       <Banner/>
       <div className={styles.grid}>
          <ContainerItem
-         data={{id:1, image: '/tmp/job.png', category:'Tabalho', }}
+         data ={{id: 1, image: '/tmp/job.png', category:'Tabalho',}}
          mainColor='#ed053f'
          />
 
         <ContainerItem
-         data={{id:2, image: '/tmp/casa.png', category:'Casa', }}
+         data ={{id: 2, image: '/tmp/casa.png', category:'Casa', }}
          mainColor='#ed053f'
          />
          
@@ -40,3 +43,4 @@ const Home = () => {
 }
 
 export default Home; 
+
