@@ -1,17 +1,18 @@
 import { type } from 'os';
 import styles from './styles.module.css';
 import { Item } from '../../../types/Item';
+import { useAppContext } from '../../contexts/AppContext';
 
 type Props ={
     data: Item;
-    mainColor: string;
 }
 
-export const ContainerItem = ({ data, mainColor}: Props) => {
+export const ContainerItem = ({ data}: Props) => {
+    const {tenant} = useAppContext();
     return(
-      <a href={`/item/${data.id}`}>
+      <a href={`/${tenant?.slug}/item/${data.id}`}>
         <div className={styles.container}>
-          <div className={styles.head} style={{backgroundColor: mainColor}}></div>
+          <div className={styles.head} style={{backgroundColor: tenant?.mainColor}}></div>
           <div className={styles.info}>
             <div className={styles.img}>
               <img  src={data.image} alt='' />
