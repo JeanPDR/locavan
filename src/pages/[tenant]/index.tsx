@@ -5,8 +5,7 @@ import { useApi } from '../../../public/libs/useApi';
 import styles from '../../styles/Home.module.css'
 
 const Home = () => {
-  const api = useApi();
-  const tenant = await api.getTenant('locavan');
+ 
   return (
     <div className={styles.container}>
       <header className={styles.header}>
@@ -45,6 +44,3 @@ const Home = () => {
 
 export default Home; 
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
-  
-}
