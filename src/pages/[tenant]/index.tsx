@@ -1,3 +1,4 @@
+import { GetServerSideProps } from 'next';
 import { Banner } from '../../../public/components/Banner';
 import { ContainerItem } from '../../../public/components/ContainerItem';
 import { useApi } from '../../../public/libs/useApi';
@@ -44,3 +45,6 @@ const Home = () => {
 
 export default Home; 
 
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  
+}
