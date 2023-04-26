@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    height: 48px;
+}
+.leftSide, 
+.rigthSide{
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerside{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
