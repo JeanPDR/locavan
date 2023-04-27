@@ -16,3 +16,8 @@
     font-weight: 400;
     font-size: 16px;
 }
+
+.showPassword {
+    display: flex;
+    align-items: center;
+}
