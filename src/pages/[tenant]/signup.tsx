@@ -1,6 +1,6 @@
 import { GetServerSideProps } from 'next';
 import { useApi } from '../../../public/libs/useApi';
-import styles from '../../styles/SignUp.module.css'
+import styles from '../../styles/Signup.module.css'
 import { type } from 'os';
 import { Tenant } from '../../../types/Tenant';
 import { useAppContext } from '../../../public/contexts/AppContext';

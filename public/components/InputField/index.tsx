@@ -38,8 +38,8 @@ export const InputField = ({color, placeholder, value, onChange, password}: Prop
             className={styles.showPassword}
             onClick={() => setShowPassword(!showPassword)}
             >
-                {showPassword && <Smile color='#e91e63'/>}
-                {!showPassword && <Happy color='#e91e63'/>}
+                {showPassword && <Smile />}
+                {!showPassword && <Happy />}
             </div>
             }
         </div>
