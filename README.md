@@ -16,8 +16,7 @@ Este projeto tem como finalidade chamar a van da Locaweb com mais faciliade util
 
 Para Ralizar a instalação do site será necessário que possui a seguintes tecnologias instaladas em seu computador:
 
-NodeJS
-NextJS
+`NodeJS` e `NextJS`
 
 Exemplo:
 
